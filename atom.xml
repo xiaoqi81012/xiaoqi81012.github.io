@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Hugo 主题 MemE</title>
+    <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
+    <updated>2022-12-13T22:07:29&#43;08:00</updated>
+    <id>https://xiaoqi81012.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://xiaoqi81012.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://xiaoqi81012.github.io/atom.xml" />
+    <author>
+            <name>reuixiy</name>
+            <uri>https://xiaoqi81012.github.io</uri>
+            
+                <email>reuixiy@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.107.0">Hugo</generator>
+        <entry>
+            <title type="text">Myfirstpost</title>
+            <link rel="alternate" type="text/html" href="https://xiaoqi81012.github.io/post/myfirstpost/" />
+            <id>https://xiaoqi81012.github.io/post/myfirstpost/</id>
+            <updated>2022-12-12T04:44:23&#43;08:00</updated>
+            <published>2022-12-11T23:08:37&#43;08:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">My first blog </summary>
+            
+                <content type="html">&lt;h4 id=&#34;my-first-blog&#34;&gt;My first blog&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">关于Hugo</title>
+            <link rel="alternate" type="text/html" href="https://xiaoqi81012.github.io/post/%E5%85%B3%E4%BA%8Ehugo/" />
+            <id>https://xiaoqi81012.github.io/post/%E5%85%B3%E4%BA%8Ehugo/</id>
+            <updated>2022-12-12T04:58:08&#43;08:00</updated>
+            <published>2022-12-11T23:08:37&#43;08:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一、配置Hugo环境 1.安装hugo（二进制安装） 到 Hugo Releases 下载对应的操作系统版本的Hu……</summary>
+            
+                <content type="html">&lt;h4 id=&#34;一配置hugo环境&#34;&gt;一、配置Hugo环境&lt;/h4&gt;
+&lt;h5 id=&#34;1安装hugo二进制安装&#34;&gt;1.安装hugo（二进制安装）&lt;/h5&gt;
+&lt;p&gt;到 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt; 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）&lt;/p&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/h1.png&#34; alt=&#34;h1&#34; style=&#34;zoom:67%;&#34; /&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_linux-amd64.deb
+
+#推荐下载ext版本
+wget https://github.com/gohugoio/hugo/releases/download/v0.107.0/hugo_extended_0.107.0_linux-amd64.deb
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h2.png&#34; alt=&#34;h2&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg -i hugo*.deb
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h3.png&#34; alt=&#34;h3&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;查看是否安装成功：
+hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h4.png&#34; alt=&#34;h4&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2生成站点下载并配置主题&#34;&gt;2.生成站点、下载并配置主题&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;生成站点
+hugo new site myfirstblog
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h5.png&#34; alt=&#34;h5&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init # 让站点可以使用git 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h6.png&#34; alt=&#34;h6&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#下载主题
+cd themes
+git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git meme 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h7.png&#34; alt=&#34;h7&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#配置主题
+rm config.toml 
+cp themes/meme/config-examples/zh-cn/config.toml config.toml
+#解释一下，就是根据主题中的config.toml内容修改blog的config.toml配置文件
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h8.png&#34; alt=&#34;h8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h9.png&#34; alt=&#34;h9&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;3编写文章并上传&#34;&gt;3.编写文章，并上传&lt;/h5&gt;
+&lt;p&gt;在正式写文章前，强烈推荐去&lt;a href=&#34;https://gohugo.io/getting-started/directory-structure/&#34;&gt;directory-structure&lt;/a&gt;了解blog目录结构;去找资料学习markdown语法&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#生成的 md 文件在myfirstblog/context/post目录下
+hugo new post/myfirstblog.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h10.png&#34; alt=&#34;h10&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#推荐在windows下用markdown编辑器，如Typora，写好文章再上传至linux，上传方式很多，如scp上传、ftp上传、如果用的是远程终端工具Tabby连接的openeuler，可以用Sftp上传文件，会非常方便！
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;本实验用的是Tabby的Sftp上传&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/h11.png&#34; alt=&#34;h11&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;4本地访问并部署到web服务器&#34;&gt;4.本地访问，并部署到Web服务器&lt;/h5&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">关于Linux课程部分笔记</title>
+            <link rel="alternate" type="text/html" href="https://xiaoqi81012.github.io/post/%E5%85%B3%E4%BA%8Enote/" />
+            <id>https://xiaoqi81012.github.io/post/%E5%85%B3%E4%BA%8Enote/</id>
+            <updated>2022-12-12T05:13:39&#43;08:00</updated>
+            <published>2022-12-11T23:08:37&#43;08:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1.Gcc编译器 1.C语言编译器gcc的下载安装 ① OpenEuler/Centos/……</summary>
+            
+                <content type="html">&lt;h5 id=&#34;1gcc编译器&#34;&gt;1.Gcc编译器&lt;/h5&gt;
+&lt;h6 id=&#34;1c语言编译器gcc的下载安装&#34;&gt;1.C语言编译器gcc的下载安装&lt;/h6&gt;
+&lt;p&gt;①　OpenEuler/Centos/RedHat安装gcc：sudo yum install gcc&lt;/p&gt;
+&lt;p&gt;②　Ubuntu/Deepin/Debian: sudo apt install gcc&lt;/p&gt;
+&lt;p&gt;③　对应C++语言的编译器g++&lt;/p&gt;
+&lt;p&gt;OpenEuler/Centos/RedHat下包名为gcc-c++&lt;/p&gt;
+&lt;p&gt;Ubuntu/Deepin/Debian下包名为g++&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#参数
+-c 产生目标代码，输出的文件后缀为.o
+-O 指定优化级别
+-I 指定头文件搜索目录
+-L 指定函数库搜索目录
+-l 链接特定的函数库
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;例子：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;vim mian.c&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/n1.png&#34; alt=&#34;n1&#34; style=&#34;zoom:67%;&#34; /&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;gcc main.c&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/n2.png&#34; alt=&#34;n2&#34; style=&#34;zoom: 67%;&#34; /&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;运行：&lt;/p&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/n4.png&#34; alt=&#34;n4&#34; style=&#34;zoom:55%;&#34; /&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;指定可执行文件的名称（事先把a.out删掉）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gcc main.c -o main
+
+./main
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/n3.png&#34; alt=&#34;n3&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;2gdb调试&#34;&gt;2.gdb调试&lt;/h5&gt;
+&lt;p&gt;(1) Gdb安装&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;OpenEuler/Centos/RedHat下：sudo yum install gdb
+
+Deepin/Ubuntu/Debian: sudo apt install gdb
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;(2) 使用Gdb调试&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gcc -o main -g main.c
+
+gdb main
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;(3) Gdb的使用&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;l  [行号] 		list，显示代码
+
+b [文件名:]行号  break，设置断点
+
+r  			run，运行程序到下一个断点
+
+n 				next，执行下一行代码
+
+p 				print，打印变量
+
+q 				quit，退出gdb
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;3makefile&#34;&gt;3.Makefile&lt;/h5&gt;
+&lt;p&gt;(1) 在Makefile所在目录执行make命令&lt;/p&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/n5.png&#34; alt=&#34;n5&#34; style=&#34;zoom:57%;&#34; /&gt;
+&lt;p&gt;(2) 进阶版Makefile&lt;/p&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/n6.png&#34; alt=&#34;n6&#34; style=&#34;zoom:57%;&#34; /&gt;
+&lt;h5 id=&#34;3cmake&#34;&gt;3.CMake&lt;/h5&gt;
+&lt;p&gt;(1) 安装&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;OpenEuler/Centos/Redhat: 
+
+sudo yum install cmake
+
+Ubuntu/Debian: 
+
+sudo apt install cmake
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;(2) 示例&lt;/p&gt;
+&lt;p&gt;新建文件CMakeLists.txt（项目配置文件）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir build
+
+cd build
+
+cmake ..
+
+make
+&lt;/code&gt;&lt;/pre&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">关于docker通信</title>
+            <link rel="alternate" type="text/html" href="https://xiaoqi81012.github.io/post/docker%E9%80%9A%E4%BF%A1/" />
+            <id>https://xiaoqi81012.github.io/post/docker%E9%80%9A%E4%BF%A1/</id>
+            <updated>2022-12-12T03:58:46&#43;08:00</updated>
+            <published>0001-01-01T00:00:00&#43;00:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一、部署Docker 1.安装docker yum install -y docker #查看版本 docker -v 2.启动docker systemctl……</summary>
+            
+                <content type="html">&lt;h4 id=&#34;一部署docker&#34;&gt;一、部署Docker&lt;/h4&gt;
+&lt;h5 id=&#34;1安装docker&#34;&gt;1.安装docker&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install -y docker
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d1.png&#34; alt=&#34;d1&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#查看版本
+docker -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d2.png&#34; alt=&#34;d2&#34;&gt;&lt;/p&gt;
+&lt;h6 id=&#34;2启动docker&#34;&gt;2.启动docker&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;systemctl start docker
+#设置开机自启动命令
+systemctl enable docker
+systemctl status docker.service
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d3.png&#34; alt=&#34;d3&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;二使用dockerfile制作java镜像创建通信容器&#34;&gt;二、使用Dockerfile制作java镜像，创建通信容器&lt;/h4&gt;
+&lt;h6 id=&#34;1制作java镜像&#34;&gt;1.制作java镜像&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir -p /root/dockerfile/java
+cd /root/dockerfile/java
+vim dockerfile_java
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d4.png&#34; alt=&#34;d4&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#Dockerfile_java 内容
+FROM centos:8 #不推荐使用（原因见第三部分）
+MAINTAINER anny &amp;#34;xxxxxxxxxx@qq.com&amp;#34;
+CMD echo &amp;#34;创建文件夹&amp;#34;
+RUN \
+    mkdir -p /usr/local \
+    &amp;amp;&amp;amp; mkdir /usr/local/java
+CMD echo &amp;#34;复制文件&amp;#34;
+COPY jdk-8u192-linux-x64.tar.gz /usr/local/java
+
+CMD echo &amp;#34;安装java&amp;#34;
+RUN \
+ cd /usr/local/java \
+ &amp;amp;&amp;amp; tar -zxvf jdk-8u192-linux-x64.tar.gz \
+ &amp;amp;&amp;amp; mv jdk1.8.0_192/ jdk8 \
+ &amp;amp;&amp;amp; rm -rf jdk-8u192-linux-x64.tar.gz
+
+CMD echo &amp;#34;设置工作访问时候的WORKDIR路径，登陆落脚点&amp;#34;
+ENV MYPATH /usr/local
+WORKDIR $MYPATH
+CMD echo &amp;#34;配置java与tomcat环境变量&amp;#34;
+ENV JAVA_HOME /usr/local/java/jdk8
+ENV CLASSPATH
+$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+ENV PATH $PATH:$JAVA_HOME/bin
+CMD echo &amp;#34;java环境配置完成&amp;#34;
+RUN \
+  java -version
+CMD /bin/bash
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#运行文件，制作名为java1.8的文件
+docker build -f dockerfile_java -t java1.8
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;2验证镜像启动测试容器查看java版本&#34;&gt;2.验证镜像，启动测试容器，查看java版本&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker images
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d5.png&#34; alt=&#34;d5&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#测试容器
+Docker run -itd --name java1.8_test java1.8
+/usr/sbin/init
+#进入容器
+docker exec -it java1.8_test /bin/bash
+#java版本
+java -version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d6.png&#34; alt=&#34;d6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d16.png&#34; alt=&#34;d16&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d7.png&#34; alt=&#34;d7&#34;&gt;&lt;/p&gt;
+&lt;h6 id=&#34;3创建ss1sc2容器查看容器ip地址&#34;&gt;3.创建SS1、SC2容器，查看容器ip地址&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -id --name SS1 -p 4778:4709 java1.8
+docker run -id --name SC2 -p 4779:4709 java1.8
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d8.png&#34; alt=&#34;d8&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#查看容器
+docker ps -a
+#查看IP地址
+docker inspect --format=&amp;#39;{{.NetworkSettings.IPAddress}}&amp;#39; SS1
+docker inspect --format=&amp;#39;{{.NetworkSettings.IPAddress}}&amp;#39; SC2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d9.png&#34; alt=&#34;d9&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d17.png&#34; alt=&#34;d17&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;三编写代码测试通信&#34;&gt;三、编写代码，测试通信&lt;/h4&gt;
+&lt;h6 id=&#34;1进入ss1编写服务端代码&#34;&gt;1.进入SS1，编写服务端代码&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker exec -it SS1 /bin/bash
+mkdir -p /java/javafile
+cd /java/javafile
+Vim ServerSocket.java
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d10.png&#34; alt=&#34;d10&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#编写服务端代码
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+ 
+public class SocketService {    //搭建服务器端
+    public static void main(String[] args) throws IOException{
+        SocketService socketService = new SocketService();
+        //1、a)创建一个服务器端Socket，即SocketService
+        socketService.oneServer();
+    }
+    public  void oneServer(){
+        try{
+            ServerSocket server=null;
+            try{
+                //下面是端口，端口可以和客户端代码里面的端口一样
+                server=new ServerSocket(4709);
+                //b)指定绑定的端口，并监听此端口。
+                System.out.println(&amp;#34;Service enable Success&amp;#34;);
+                //创建一个ServerSocket在端口4709监听客户请求
+            }catch(Exception e) {
+                System.out.println(&amp;#34;No Listen：&amp;#34;+e);
+                //出错，打印出错信息
+            }
+            Socket socket=null;
+            try{
+                socket=server.accept();
+                //2、调用accept()方法开始监听，等待客户端的连接
+                //使用accept()阻塞等待客户请求，有客户
+                //请求到来则产生一个Socket对象，并继续执行
+            }catch(Exception e) {
+                System.out.println(&amp;#34;Error.&amp;#34;+e);
+                //出错，打印出错信息
+            }
+            //3、获取输入流，并读取客户端信息
+            String line;
+            BufferedReader in=new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            //由Socket对象得到输入流，并构造相应的BufferedReader对象
+            PrintWriter writer=new PrintWriter(socket.getOutputStream());
+            //由Socket对象得到输出流，并构造PrintWriter对象
+            BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+            //由系统标准输入设备构造BufferedReader对象
+            System.out.println(&amp;#34;Client:&amp;#34;+in.readLine());
+            //在标准输出上打印从客户端读入的字符串
+            line=br.readLine();
+            //从标准输入读入一字符串
+            //4、获取输出流，响应客户端的请求
+            while(!line.equals(&amp;#34;end&amp;#34;)){
+                //如果该字符串为 &amp;#34;bye&amp;#34;，则停止循环
+                writer.println(line);
+                //向客户端输出该字符串
+                writer.flush();
+                //刷新输出流，使Client马上收到该字符串
+                System.out.println(&amp;#34;Service:&amp;#34;+line);
+                //在系统标准输出上打印读入的字符串
+                System.out.println(&amp;#34;Client:&amp;#34;+in.readLine());
+                //从Client读入一字符串，并打印到标准输出上
+                line=br.readLine();
+                //从系统标准输入读入一字符串
+            } //继续循环
+ 
+            //5、关闭资源
+            writer.close(); //关闭Socket输出流
+            in.close(); //关闭Socket输入流
+            socket.close(); //关闭Socket
+            server.close(); //关闭ServerSocket
+        }catch(Exception e) {//出错，打印出错信息
+            System.out.println(&amp;#34;Error.&amp;#34;+e);
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d11.png&#34; alt=&#34;d11&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;javac SocketService.java
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;2进入sc2编写客户端代码&#34;&gt;2.进入SC2，编写客户端代码&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker exec -it SC2 /bin/bash
+mkdir -p /java/javafile
+cd /java/javafile
+Vim SocketClient.java
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d12.png&#34; alt=&#34;d12&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#编写客户端代码
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.URL;
+ 
+public class SocketClient {
+ 
+    // 搭建客户端
+    public static void main(String[] args) throws IOException {
+        try {
+            // 1、创建客户端Socket，指定服务器地址和端口
+ 
+            //下面是你要传输到另一台电脑的IP地址和端口
+            Socket socket = new Socket(&amp;#34;172.17.0.2&amp;#34;, 4709);
+            System.out.println(&amp;#34;Client enable Success&amp;#34;);
+            // 2、获取输出流，向服务器端发送信息
+            // 向本机的4779端口发出客户请求
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            // 由系统标准输入设备构造BufferedReader对象
+            PrintWriter write = new PrintWriter(socket.getOutputStream());
+            // 由Socket对象得到输出流，并构造PrintWriter对象
+            //3、获取输入流，并读取服务器端的响应信息
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            // 由Socket对象得到输入流，并构造相应的BufferedReader对象
+            String readline;
+            readline = br.readLine(); // 从系统标准输入读入一字符串
+            while (!readline.equals(&amp;#34;end&amp;#34;)) {
+                // 若从标准输入读入的字符串为 &amp;#34;end&amp;#34;则停止循环
+                write.println(readline);
+                // 将从系统标准输入读入的字符串输出到Server
+                write.flush();
+                // 刷新输出流，使Server马上收到该字符串
+                System.out.println(&amp;#34;Client:&amp;#34; + readline);
+                // 在系统标准输出上打印读入的字符串
+                System.out.println(&amp;#34;Service:&amp;#34; + in.readLine());
+                // 从Server读入一字符串，并打印到标准输出上
+                readline = br.readLine(); // 从系统标准输入读入一字符串
+            } // 继续循环
+            //4、关闭资源
+            write.close(); // 关闭Socket输出流
+            in.close(); // 关闭Socket输入流
+            socket.close(); // 关闭Socket
+        } catch (Exception e) {
+            System.out.println(&amp;#34;can not listen to:&amp;#34; + e);// 出错，打印出错信息
+        }
+    }
+ 
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d13.png&#34; alt=&#34;d13&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;javac SocketClient.java
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;3启动服务测试通信&#34;&gt;3.启动服务，测试通信&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SS1:
+Java SocketService
+SC2:
+java SocketClient
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d15.png&#34; alt=&#34;d15&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d14.png&#34; alt=&#34;d14&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;四问题及解决方法&#34;&gt;四、问题及解决方法&lt;/h4&gt;
+&lt;h5 id=&#34;报错1&#34;&gt;报错1：&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d18.png&#34; alt=&#34;d18&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;内容：vim：command not found
+分析：vim没安装
+解决方法：
+1.查看vim安装情况：rpm -qa | grep vim
+2.返回一条结果，尝试下载其他未安装内容，出现如下报错2
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;报错2&#34;&gt;报错2：&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d19.png&#34; alt=&#34;d19&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;内容：Error: Failed to download metadata for repo &amp;#39;appstream&amp;#39;: Cannot prepare internal mirrorlist: No URLs in mirrorlist
+分析：从仓库 ‘appstream’ 下载元数据失败：由于镜像列表中没有 URL，不能准备内部镜像列表。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;猜测：
+第一种可能的情况便是网络连接问题，在ping baidu.com 能够ping通，排除这个原因；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d20.png&#34; alt=&#34;d20&#34;&gt;&lt;/p&gt;
+&lt;p&gt;第二种情况，便是 CentOS 已经停止维护的问题，需要生成缓存更新。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#进入到 yum 的 repos 目录，修改 centos 文件内容，生成缓存更新
+cd /etc/yum.repos.d/
+
+sed -i &amp;#39;s/mirrorlist/#mirrorlist/g&amp;#39; /etc/yum.repos.d/CentOS-*
+
+sed -i &amp;#39;s|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g&amp;#39;/etc/yum.repos.d/CentOS-* 
+
+yum makecache
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d21.png&#34; alt=&#34;d21&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#运行 yum update 并重新安装 vim
+yum update -y
+yum -y install vim 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d22.png&#34; alt=&#34;d22&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d23.png&#34; alt=&#34;d23&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;报错3&#34;&gt;报错3&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d24.png&#34; alt=&#34;d24&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;内容：no route to host(host unreach able)
+分析：firewall 的没有信任 docker 的 ip 地址，将所有 docker 的 ip 添加到信任区域。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/d25.png&#34; alt=&#34;d25&#34;&gt;&lt;/p&gt;
+&lt;p&gt;问题解决：&lt;img src=&#34;https://xiaoqi81012.github.io/images/d26.png&#34; alt=&#34;d26&#34;&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">关于Git</title>
+            <link rel="alternate" type="text/html" href="https://xiaoqi81012.github.io/post/%E5%85%B3%E4%BA%8Egit/" />
+            <id>https://xiaoqi81012.github.io/post/%E5%85%B3%E4%BA%8Egit/</id>
+            <updated>2022-12-12T04:00:16&#43;08:00</updated>
+            <published>0001-01-01T00:00:00&#43;00:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一、安装git 两种安装方式 （一）yum安装（本次实验用） 1. 使用yum命令安装Git sudo……</summary>
+            
+                <content type="html">&lt;h4 id=&#34;一安装git&#34;&gt;一、安装git&lt;/h4&gt;
+&lt;h6 id=&#34;两种安装方式&#34;&gt;两种安装方式&lt;/h6&gt;
+&lt;h5 id=&#34;一yum安装本次实验用&#34;&gt;（一）yum安装（本次实验用）&lt;/h5&gt;
+&lt;h5 id=&#34;1-使用yumhttpssocsdnnetsosearchqyumspm1001210130017020命令安装git&#34;&gt;1. 使用&lt;a href=&#34;https://so.csdn.net/so/search?q=yum&amp;amp;spm=1001.2101.3001.7020&#34;&gt;yum&lt;/a&gt;命令安装Git&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo yum install git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g1.png&#34; alt=&#34;g1&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2查看git版本&#34;&gt;2.查看git版本&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g2.png&#34; alt=&#34;g2&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;二源码安装&#34;&gt;（二）源码安装&lt;/h5&gt;
+&lt;h5 id=&#34;1-查看当前linux是否已安装git&#34;&gt;1. 查看当前Linux是否已安装git，&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rpm -aq | grep git或git -version
+#若有则使用命令删除
+yum remove git
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;2-下载安装编译git时需要的包&#34;&gt;2. 下载安装编译git时需要的包&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install -y curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+yum install -y gcc perl-ExtUtils-MakeMaker
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;3-下载git的tar包&#34;&gt;3. 下载Git的tar包&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget --no-check-certificate https://www.kernel.org/pub/software/scm/git/git-2.36.1.tar.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;4-编译安装git&#34;&gt;4. 编译安装Git&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#将Git解压到/opt/git/src目录下，执行以下两个命令
+mkdir /opt/src
+tar -zxvf git-2.36.1.tar.gz  -C  /opt/src/
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#进入到/opt/src/git-2.36.1目录下,执行以下两个命令将Git进行编译安装到/opt/git目录
+make install prefix=/opt/git
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;5配置环境变量&#34;&gt;5.配置环境变量&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#编辑profile文件
+vim /etc/profile
+#将下面命令追加到文件末尾
+export PATH=/opt/git/bin:$PATH
+#重载profile文件
+source /etc/profile
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;6查看git版本&#34;&gt;6.查看git版本&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --version
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;二使用git&#34;&gt;二、使用git&lt;/h4&gt;
+&lt;h5 id=&#34;1-配置全局git账户和邮箱&#34;&gt;1. 配置全局git账户和邮箱&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;username&amp;#34;
+git config --global user.email &amp;#34;email@example.com&amp;#34; (使用github的账户和邮箱)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g3.png&#34; alt=&#34;g3&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2使用ssh-keygen生成公钥密钥&#34;&gt;2.使用ssh-keygen生成公钥密钥&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo cd ~/.ssh
+ssh-keygen -t rsa -C “xxxx@qq.com”（邮箱允许为不真实邮箱，但格式要符合）
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下来操作：
+1可以直接回车
+2设置密码（如果设置了密码此后上传或下载都需要输入这个密码）
+接着会给出相应的公钥私钥所在的地址，去复制公钥（不要改动任何东西）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g4.png&#34; alt=&#34;g4&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;3查看生成的公钥复制到githubssh-and-gpg-keys上&#34;&gt;3.查看生成的公钥，复制到GitHub(SSH and GPG keys)上&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#查看公钥
+cat id_rsa.Pub
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g5.png&#34; alt=&#34;g5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;打开github 找到 Settings -&amp;gt; SSH and GPG keys -&amp;gt; New SSH Key -&amp;gt; 输入title和Key(生成的公钥) -&amp;gt; Add SSH Key&lt;/p&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/g6.png&#34; alt=&#34;g6&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g7.png&#34; alt=&#34;g7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g8.png&#34; alt=&#34;g8&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;4测试是否连接成功&#34;&gt;4.测试是否连接成功&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh git@github.com
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g9.png&#34; alt=&#34;g9&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;5github创建项目将远程仓库与本地仓库连接起来&#34;&gt;5.github创建项目，将远程仓库与本地仓库连接起来&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;在Github创建存储库,会有如下提示
+echo &amp;#34;# xxxxx&amp;#34; &amp;gt;&amp;gt; README.md
+git init
+git add README.md
+git commit -m &amp;#34;first commit&amp;#34;
+git branch -M main
+git remote add origin https://github.com/username/xxxxx.git
+git push -u origin main
+#紧接着输入用户和密码，即首次推送成功!
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g10.png&#34; alt=&#34;g10&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;再次推送文件,找到与远程仓库同名的文件xxxxx
+cd xxxxx
+vim test.txt
+git add test.txt
+git commit -m &amp;#34;备注信息&amp;#34;
+git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g11.png&#34; alt=&#34;g11&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/g12.png&#34; alt=&#34;g12&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;h4 id=&#34;三出现问题及解决方法&#34;&gt;三、出现问题及解决方法&lt;/h4&gt;
+&lt;h5 id=&#34;1关于github解决githubhttpssocsdnnetsosearchqgithubspm1001210130017020无法登录或响应时间过长问题&#34;&gt;1.关于github：解决&lt;a href=&#34;https://so.csdn.net/so/search?q=Github&amp;amp;spm=1001.2101.3001.7020&#34;&gt;Github&lt;/a&gt;无法登录或响应时间过长问题&lt;/h5&gt;
+&lt;p&gt;(1)修改host文件&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#到https://www.ipaddress.com/查询 github.com、github.global.ssl.fastly.net、assets-cdn.github.com等ip地址
+#用管理员身份运行记事本以文本形式打开host文件，在文档的末尾添加
+140.82.113.3 github.com
+151.101.1.194 github.global.ssl.fastly.net
+185.199.108.153 assets-cdn.github.com
+185.199.110.153 assets-cdn.github.com
+185.199.111.153 assets-cdn.github.com  
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g13.png&#34; alt=&#34;g13&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/g14.png&#34; alt=&#34;g14&#34; style=&#34;zoom:67%;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g15.png&#34; alt=&#34;g15&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(2)刷新DNS缓存&lt;/p&gt;
+&lt;img src=&#34;https://xiaoqi81012.github.io/images/g16.png&#34; alt=&#34;g16&#34; style=&#34;zoom:67%;&#34; /&gt;
+&lt;p&gt;(3)流畅登录Github&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g17.png&#34; alt=&#34;g17&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2关于git推送文件出现问题&#34;&gt;2.关于git：推送文件出现问题&lt;/h5&gt;
+&lt;h6 id=&#34;报错1&#34;&gt;报错1：&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g18.png&#34; alt=&#34;g18&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;remote: Support for password authentication was removed on August 13, 2021. 
+分析：原先的密码凭证从2021年8月13日开始不能用。
+解决方法：使用个人访问令牌（personal access token）把密码替换成token
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;到GitHub生成令牌具体操作&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先在GitHub的个人设置页面，找到setting，选择开发者设置Developer setting选择个人访问令牌Personal access tokens，然后选中生成令牌Generate new token&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g19.png&#34; alt=&#34;g19&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;选择要授予此令牌token的范围或权限&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;要使用token从命令行访问仓库，请选择repo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;要使用token从命令行删除仓库，请选择delete_repo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其他根据需要进行勾选，点击Generate token&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g20.png&#34; alt=&#34;g20&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g21.png&#34; alt=&#34;g21&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g22.png&#34; alt=&#34;g22&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;生成token：ghp_xxxxxx，在登录时，在密码框输入token即可登录成功
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h6 id=&#34;报错2&#34;&gt;报错2:&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g23.png&#34; alt=&#34;g23&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;报错场景：首次推送
+报错内容：
+  fatal:无法访问&amp;#39;https://github.com/username/xxxxx.git&amp;#39;:Failed to connect to github.com port 443 after 22861 ms:拒绝连接
+分析：这里其实是电脑没有安装对应的证书，所以无法通过https连接到服务器
+解决方法：通过设置git的ssl验证跳过了这个错误:
+  git config --global http.sslVerify false
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g24.png&#34; alt=&#34;g24&#34;&gt;&lt;/p&gt;
+&lt;h6 id=&#34;报错3&#34;&gt;报错3：&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoqi81012.github.io/images/g25.png&#34; alt=&#34;g25&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;报错场景：再次推送文件过程中
+报错内容：
+To https://github.com/ussername/xxxxx.git
+ ! [rejected]        main -&amp;gt; main (non-fast-forward)
+error: failed to push some refs to &amp;#39;https://github.com/username/xxxxx.git&amp;#39;  
+hint: Updates were rejected because the tip of your current branch is behind     
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: &amp;#39;git pull ...&amp;#39;) before pushing again.
+hint: See the &amp;#39;Note about fast-forwards&amp;#39; in &amp;#39;git push --help&amp;#39; for details.  
+分析：在远程版本库中已经有被修改的文件，本地未与远端同步
+解决方法：
+     git pull --rebase origin master
+报错3.1：
+    error: cannot pull with rebase: You have unstaged changes.
+    error: please commit or stash them.
+分析：表示工作区有变更尚未提交，遇到这种情况
+解决方法：需要将变更缓存，输入git stash 存储变更后再进行git pull --rebase origin master
+&lt;/code&gt;&lt;/pre&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
